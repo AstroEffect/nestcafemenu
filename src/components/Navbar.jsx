@@ -34,7 +34,7 @@ export default function Navbar({ openDrawerHandler, menus }) {
             }
         );
 
-        menus.forEach(menu => {
+        menus?.forEach(menu => {
             const el = document.getElementById(menu.id);
             if (el) observer.observe(el);
         });
@@ -52,7 +52,7 @@ export default function Navbar({ openDrawerHandler, menus }) {
                 behavior: 'smooth'
             });
         }
-    };
+    };    
 
     return (
         <nav>

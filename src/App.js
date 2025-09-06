@@ -8,8 +8,8 @@ import './App.css';
 
 export default function App() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const [menus, setMenus] = useState([]);
-  const [highlight, setHighlight] = useState(null);
+  const [menus, setMenus] = useState([]);           // فقط آرایه menu
+  const [highlight, setHighlight] = useState(null); // آیتم highlight
   const [loading, setLoading] = useState(false);
 
   const openDrawerHandler = () => setIsDrawerOpen(true);
@@ -22,13 +22,11 @@ export default function App() {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const menuRes = await fetch('http://192.168.1.103:4000/menu');
-      const menuData = await menuRes.json();
-      setMenus(menuData);
+      const res = await fetch('/db.json');
+      const data = await res.json();
 
-      const highlightRes = await fetch('http://192.168.1.103:4000/hightlight');
-      const highlightData = await highlightRes.json();
-      setHighlight(highlightData);
+      setMenus(data.menu || []);           // فقط آرایه menu
+      setHighlight(data.highlight || null);
     } catch (err) {
       console.error(err);
     } finally {
@@ -36,6 +34,7 @@ export default function App() {
     }
   };
 
+  // پیدا کردن آیتم highlight
   const highlightItem = highlight
     ? menus.flatMap(menu => menu.items).find(item => item.id === highlight.id)
     : null;
