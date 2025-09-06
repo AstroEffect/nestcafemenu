@@ -22,7 +22,7 @@ export default function App() {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const res = await fetch('/db.json');
+      const res = await fetch(process.env.PUBLIC_URL + '/db.json');
       const data = await res.json();
 
       setMenus(data.menu || []);           // فقط آرایه menu
