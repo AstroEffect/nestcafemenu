@@ -1,0 +1,118 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+.modal__content {
+    margin: auto;
+    inset: 0;
+    position: absolute;
+    background: var(--background);
+    width: 300px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal__close__btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modal__img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.modal__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.modal__info {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-family: iran-sans;
+}
+
+.modal__info__name {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.modal__info__desc {
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: var(--text-mute);
+}
+
+.sizeSwiper {
+    width: 100%;
+}
+
+.modal__info__sizing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.modal__info__sizing small {
+    color: var(--text-mute);
+    font-size: 0.6rem;
+}
+
+.modal__icon {
+    color: var(--text);
+    font-size: 3rem;
+}
+
+.modal__info__price {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--text);
+}
+
+.modal__info__price:nth-child(2) {
+    font-size: 1.4rem;
+}
+
+.modal__info__tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40px;
+    overflow: hidden;
+    gap: 10px;
+}
+

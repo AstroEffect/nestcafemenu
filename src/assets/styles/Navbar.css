@@ -1,0 +1,96 @@
+nav {
+   position: sticky;
+   top: 0;
+   width: 100%;
+   background: var(--secondary);
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.navbar__brand {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar__brand img {
+   width: 100px;
+}
+
+.navbar__brand .navbar__btns {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   margin-right: 20px;
+}
+
+.navbar__brand .navbar__btn {
+   cursor: pointer;
+   font-size: 2.5rem;
+   color: var(--text);
+}
+
+.navbar__categories {
+   padding: 10px 20px;
+   align-content: center;
+}
+
+.navbar__category {
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   cursor: pointer;
+   transition: transform 0.2s ease;
+}
+
+.navbar__category__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;          /* slightly bigger for padding */
+  height: 60px;
+  background: rgba(86, 99, 79, 0.2); /* lighter for better contrast */
+  border-radius: 16px;
+  padding: 8px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.navbar__category__icon img,
+.navbar__category__icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navbar__category:hover .navbar__category__icon {
+  transform: scale(1.1);
+  background: rgba(86, 99, 79, 0.35);
+}
+
+.navbar__category__text {
+   font-family: iran-sans;
+   font-size: 1rem;
+   text-wrap: nowrap;
+   color: var(--text);
+   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+   .navbar__brand img {
+      width: 70px;
+   }
+
+   .navbar__btn {
+      font-size: 2rem !important;
+   }
+
+   .navbar__category__text {
+      font-size: 0.8rem;
+   }
+   
+}

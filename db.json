@@ -1,0 +1,413 @@
+{
+  "menu": [
+    {
+      "category": "نوشیدنی‌های گرم",
+      "id": "hot-drinks",
+      "items": [
+        {
+          "id": 1,
+          "title": "اسپرسو",
+          "description": "قهوه غلیظ ایتالیایی با عطر قوی",
+          "image": "img/espresso.png",
+          "tags": [
+            "قهوه",
+            "کافه‌ای"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 120000
+            },
+            {
+              "name": "متوسط",
+              "price": 150000
+            },
+            {
+              "name": "بزرگ",
+              "price": 180000
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "آمریکانو",
+          "description": "اسپرسو رقیق شده با آب جوش",
+          "image": "img/americano.png",
+          "tags": [
+            "قهوه",
+            "کافه‌ای"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 150000
+            },
+            {
+              "name": "متوسط",
+              "price": 180000
+            },
+            {
+              "name": "بزرگ",
+              "price": 210000
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "کاپوچینو",
+          "description": "اسپرسو، شیر فوم‌دار و دارچین",
+          "image": "img/cappuccino.png",
+          "tags": [
+            "قهوه",
+            "محبوب"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 180000
+            },
+            {
+              "name": "متوسط",
+              "price": 220000
+            },
+            {
+              "name": "بزرگ",
+              "price": 250000
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "قهوه ترک",
+          "description": "قهوه اصیل ترک با سرو در فنجان کوچک",
+          "image": "img/turkish-coffee.png",
+          "tags": [
+            "قهوه",
+            "سنتی"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 120000
+            },
+            {
+              "name": "متوسط",
+              "price": 140000
+            },
+            {
+              "name": "بزرگ",
+              "price": 170000
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "چای ایرانی",
+          "description": "چای اصیل ایرانی همراه نبات زعفرانی",
+          "image": "img/tea.png",
+          "tags": [
+            "سنتی",
+            "گرم"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 50000
+            },
+            {
+              "name": "متوسط",
+              "price": 70000
+            },
+            {
+              "name": "بزرگ",
+              "price": 90000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "نوشیدنی‌های سرد",
+      "id": "cold-drinks",
+      "items": [
+        {
+          "id": 6,
+          "title": "آیس‌لاته",
+          "description": "شیر خنک با اسپرسو و یخ",
+          "image": "img/iced-latte.png",
+          "tags": [
+            "قهوه",
+            "خنک"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 200000
+            },
+            {
+              "name": "متوسط",
+              "price": 230000
+            },
+            {
+              "name": "بزرگ",
+              "price": 260000
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "آیس ماچا",
+          "description": "شیر خنک با ماچا و یخ",
+          "image": "img/iced-matcha.png",
+          "tags": [
+            "خنک",
+            "محبوب"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 170000
+            },
+            {
+              "name": "متوسط",
+              "price": 200000
+            },
+            {
+              "name": "بزرگ",
+              "price": 230000
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "آبمیوه طبیعی پرتقال",
+          "description": "آب پرتقال تازه و طبیعی",
+          "image": "img/orange-juice.png",
+          "tags": [
+            "سلامت",
+            "خنک"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 150000
+            },
+            {
+              "name": "متوسط",
+              "price": 180000
+            },
+            {
+              "name": "بزرگ",
+              "price": 210000
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "آبمیوه طبیعی انبه و دراگون فروت",
+          "description": "آب انبه و دراگون فروت تازه و طبیعی",
+          "image": "img/mango-dragonfruit.png",
+          "tags": [
+            "خنک",
+            "میوه‌ای"
+          ],
+          "sizes": [
+            {
+              "name": "کوچیک",
+              "price": 150000
+            },
+            {
+              "name": "متوسط",
+              "price": 180000
+            },
+            {
+              "name": "بزرگ",
+              "price": 210000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "صبحانه‌ها",
+      "id": "breakfasts",
+      "items": [
+        {
+          "id": 14,
+          "title": "صبحانه ایرانی",
+          "price": 250000,
+          "description": "املت، نان سنگک، سبزی تازه و چای",
+          "image": "img/iranian-breakfast.png",
+          "tags": [
+            "سنتی",
+            "صبحانه"
+          ]
+        },
+        {
+          "id": 15,
+          "title": "صبحانه انگلیسی",
+          "price": 320000,
+          "description": "سوسیس، لوبیا، تخم‌مرغ و نان تست",
+          "image": "img/english-breakfast.png",
+          "tags": [
+            "فرنگی",
+            "صبحانه"
+          ]
+        },
+        {
+          "id": 16,
+          "title": "پنکیک با عسل",
+          "price": 280000,
+          "description": "پنکیک نرم با عسل طبیعی",
+          "image": "img/pancakes.png",
+          "tags": [
+            "شیرین",
+            "صبحانه"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "غذای اصلی",
+      "id": "main-dish",
+      "items": [
+        {
+          "id": 18,
+          "title": "چلوکباب کوبیده",
+          "price": 480000,
+          "description": "دو سیخ کوبیده زعفرانی با برنج ایرانی",
+          "image": "img/kebab.png",
+          "tags": [
+            "ایرانی",
+            "محبوب"
+          ]
+        },
+        {
+          "id": 22,
+          "title": "قورمه‌سبزی",
+          "price": 380000,
+          "description": "خورش اصیل ایرانی با سبزی تازه و لوبیا",
+          "image": "img/ghormeh-sabzi.png",
+          "tags": [
+            "ایرانی",
+            "خورش"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "فست‌فود سبک",
+      "id": "fastfood",
+      "items": [
+        {
+          "id": 23,
+          "title": "برگر کلاسیک",
+          "price": 300000,
+          "description": "برگر گوشت با پنیر و سبزیجات تازه",
+          "image": "img/burger.png",
+          "tags": [
+            "فست‌فود",
+            "محبوب"
+          ]
+        },
+        {
+          "id": 24,
+          "title": "برگر مخصوص آریانا",
+          "price": 420000,
+          "description": "برگر ویژه با سس اختصاصی آریانا",
+          "image": "img/special-burger.png",
+          "tags": [
+            "فست‌فود",
+            "ویژه"
+          ]
+        },
+        {
+          "id": 25,
+          "title": "مرغ سوخاری",
+          "price": 250000,
+          "description": "مرغ سوخاری با پنیر و سبزیجات تازه",
+          "image": "img/chicken.png",
+          "tags": [
+            "ساده",
+            "فست‌فود"
+          ]
+        },
+        {
+          "id": 26,
+          "title": "سیب‌زمینی سرخ‌کرده ویژه",
+          "price": 150000,
+          "description": "سیب‌زمینی ترد با سس مخصوص",
+          "image": "img/fries.png",
+          "tags": [
+            "اسنک",
+            "محبوب"
+          ]
+        },
+        {
+          "id": 19,
+          "title": "پاستا آلفردو",
+          "price": 400000,
+          "description": "پاستا با سس آلفردوی خامه‌ای و مرغ",
+          "image": "img/alfredo.png",
+          "tags": [
+            "فرنگی",
+            "پاستا"
+          ]
+        },
+        {
+          "id": 20,
+          "title": "پیتزا مارگاریتا",
+          "price": 350000,
+          "description": "پیتزای سبک با گوجه و پنیر موزارلا",
+          "image": "img/margherita-pizza.png",
+          "tags": [
+            "فست‌فود",
+            "فرنگی"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "دسر و شیرینی",
+      "id": "dessert",
+      "items": [
+        {
+          "id": 27,
+          "title": "چیزکیک ردولوت",
+          "price": 200000,
+          "description": "",
+          "image": "img/red-velvet.png",
+          "tags": [
+            "شیرین",
+            "محبوب"
+          ]
+        },
+        {
+          "id": 28,
+          "title": "تیرامیسو",
+          "price": 220000,
+          "description": "دسر ایتالیایی با قهوه و ماسکارپونه",
+          "image": "img/tiramisu.png",
+          "tags": [
+            "شیرین",
+            "فرنگی"
+          ]
+        },
+        {
+          "id": 31,
+          "title": "فالوده شیرازی",
+          "price": 160000,
+          "description": "دسر یخی ایرانی با عطر گلاب و لیمو",
+          "image": "img/faloodeh.png",
+          "tags": [
+            "سنتی",
+            "خنک"
+          ]
+        }
+      ]
+    }
+  ],
+  "hightlight": {
+    "id": 3
+  }
+}

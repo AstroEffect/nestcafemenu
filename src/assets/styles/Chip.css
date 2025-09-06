@@ -1,0 +1,7 @@
+.chip {
+    width: max-content;
+    height: max-content;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: var(--secondary);
+}

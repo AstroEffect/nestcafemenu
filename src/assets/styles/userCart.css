@@ -1,0 +1,153 @@
+.drawer__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.drawer {
+    background: var(--background);
+    width: 400px;
+    height: 100dvh;
+    padding: 20px;
+    position: relative;
+    font-family: iran-sans, sans-serif;
+    z-index: 100;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    animation: SlideInRight 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes SlideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.drawer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: var(--text);
+}
+
+.drawer__header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.drawer__close__btn {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--text);
+}
+
+.drawer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 10px;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.drawer__content__card {
+    background-color: rgba(245, 220, 180, 0.7);
+    padding: 10px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.drawer__content__card img {
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.drawer__content__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.drawer__content__card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.drawer__content__card__info__btn__group {
+    display: flex;
+    gap: 10px;
+}
+
+.drawer__content__card__info__btn {
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background: hsl(27, 38%, 53%, 90%);
+    color: #fff;
+}
+
+.drawer__content__card__info p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+
+.drawer__footer {
+    background-color: rgba(245, 220, 180, 0.9);
+    padding: 0 5px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+.empty__cart {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: var(--text);
+}
+
+.drawer__content::-webkit-scrollbar {
+    width: 6px;
+    margin: 10px;
+}
+
+.drawer__content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.drawer__content::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}

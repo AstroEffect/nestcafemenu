@@ -1,0 +1,49 @@
+@font-face {
+  font-family: iran-sans;
+  src: url(assets/fonts/FontsFree-Net-ir_sans.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  transition: 0.3s;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: inherit;
+}
+
+sup {
+  font-size: 0.8rem;
+  direction: ltr;
+  display: inline-block;
+  text-align: left;
+  margin-right: 5px;
+}
+
+/* [data-theme="light"] */
+:root[data-theme="light"] {
+  --text: #3d3d3d;
+  --text-mute: #7b7b7b;
+  --background: #faf9ef;
+  --primary: #a3b09c;
+  --secondary: #ddcfc0;
+  --accent: #b5835a;
+}
+
+/* [data-theme="dark"] */
+:root[data-theme="dark"] {
+  --text: #c2c2c2;
+  --text-mute: #999999;
+  --background: #100f05;
+  --primary: #56634f;
+  --secondary: #3f3122;
+  --accent: #a5734a;
+}

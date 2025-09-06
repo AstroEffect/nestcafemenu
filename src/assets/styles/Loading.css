@@ -1,0 +1,47 @@
+.loader__container {
+    width: 100%;
+    height: 100svh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+.loader {
+   width: 70.4px;
+   height: 70.4px;
+   color: #a3b09c;
+   background: linear-gradient(currentColor 0 0),
+          linear-gradient(currentColor 0 0),
+          linear-gradient(currentColor 0 0),
+          linear-gradient(currentColor 0 0);
+   background-size: 36.2px 36.2px;
+   background-repeat: no-repeat;
+   animation: shapes-53h9rphg 1.7999999999999998s infinite cubic-bezier(0.3,1,0,1);
+}
+
+@keyframes shapes-53h9rphg {
+   0% {
+      background-position: 0    0,100% 0   ,100% 100%,0 100%;
+   }
+
+   33% {
+      background-position: 0    0,100% 0   ,100% 100%,0 100%;
+      width: 105.6px;
+      height: 105.6px;
+   }
+
+   66% {
+      background-position: 100% 0,100% 100%,0    100%,0 0;
+      width: 105.6px;
+      height: 105.6px;
+   }
+
+   100% {
+      background-position: 100% 0,100% 100%,0    100%,0 0;
+   }
+}
