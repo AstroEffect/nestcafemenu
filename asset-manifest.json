@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nestcafemenu/static/css/main.0822b633.css",
-    "main.js": "/nestcafemenu/static/js/main.e1cdda19.js",
+    "main.js": "/nestcafemenu/static/js/main.5b34d251.js",
     "static/media/logo.png": "/nestcafemenu/static/media/logo.ae5d53e6ad902664cf56.png",
     "static/media/FontsFree-Net-ir_sans.ttf": "/nestcafemenu/static/media/FontsFree-Net-ir_sans.b405362106aecf6bb79b.ttf",
     "index.html": "/nestcafemenu/index.html",
     "main.0822b633.css.map": "/nestcafemenu/static/css/main.0822b633.css.map",
-    "main.e1cdda19.js.map": "/nestcafemenu/static/js/main.e1cdda19.js.map"
+    "main.5b34d251.js.map": "/nestcafemenu/static/js/main.5b34d251.js.map"
   },
   "entrypoints": [
     "static/css/main.0822b633.css",
-    "static/js/main.e1cdda19.js"
+    "static/js/main.5b34d251.js"
   ]
 }
