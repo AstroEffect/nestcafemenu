@@ -70,7 +70,7 @@ export default function Navbar({ openDrawerHandler, menus }) {
                             <div className='navbar__category' onClick={() => scrollToSection(menu.id)}>
                                 <div className='navbar__category__icon'>
                                     <div className='image'>
-                                        <img src={`/img/${menu.id}.png`} alt="" />
+                                        <img src={`img/${menu.id}.png`} alt="" />
                                     </div>
                                 </div>
                                 <span className='navbar__category__text'>{menu.category}</span>
